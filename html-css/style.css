@@ -55,6 +55,10 @@ p{
     color: hsl(0, 0%, 100%);
     font-weight: bold;
 }
+.highlight:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 #ETH{
     color: hsl(178, 100%, 50%);
