@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family:"Outfit";
+    font-size: 18px;
+    background-color:hsl(215, 63%, 13%);
+    font-weight: 500;
+    color: hsl(215, 51%, 70%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2em;
+    margin:10px 0px 15px 0px;
+}
+#outside{
+    border-width: 40px 20px; 
+    border-style:solid;
+    border-color:hsl(217, 54%, 11%);
+    border-radius: 50px;
+    margin:auto;
+    width: fit-content;
+}
+#description{
+    font-weight: 300;
+    padding: 0px 10px 10px 0px;
+}
+#card{
+    background-color:hsl(216, 50%, 16%);
+    margin:auto;
+    padding: 10px;
+    border:15px solid hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width: 320px;
+    height: 550px
+}
+p{
+    padding: 10px;
+    padding-left: 0px;
+}
+.images, p{
+    margin: auto;
+    display: inline-block;
+}
+#e-img{
+    margin: auto;
+    display: block;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+.highlight{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+#ETH{
+    color: hsl(178, 100%, 50%);
+    padding-left: 5px;
+}
+#timing{
+    float: right;
+}
+#time{
+    padding: 5px;
+}
+#madeby{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+#creator{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+}
+#author{
+    padding: 10px;
+}
+.pfp{
+    width: 30px;
+    height:30px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+hr{
+    border-color: hsl(215, 51%, 70%);
+}
